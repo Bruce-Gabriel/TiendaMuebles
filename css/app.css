@@ -406,13 +406,8 @@ img {
 
 .blog-input-content {
     margin: 0 auto;
-    width: 100%;
-}
-
-@media (min-width: 768px){
-    .blog-input-content {
-        width: 60rem;
-    }
+    width: 60rem;
+    max-width: 100%;
 }
 
 /* Gallery */
